@@ -1,0 +1,387 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.indooratlas.android.sdk.examples"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+12-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:6:5-88
+12-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:6:22-85
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission
+14-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:8:5-68
+15        android:name="android.permission.BLUETOOTH"
+15-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:8:22-65
+16        android:required="false" />
+16-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:13:9-33
+17    <uses-permission
+17-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:9:5-74
+18        android:name="android.permission.BLUETOOTH_ADMIN"
+18-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:9:22-71
+19        android:required="false" />
+19-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:16:9-33
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:10:5-79
+20-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:11:5-85
+21-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:11:22-82
+22
+23    <uses-feature
+23-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:14:5-16:34
+24        android:glEsVersion="0x00020000"
+24-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:15:9-41
+25        android:required="true" />
+25-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:16:9-32
+26
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:11:5-79
+27-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:11:22-76
+28    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+28-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:13:5-76
+28-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:13:22-73
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:14:5-76
+29-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:14:22-73
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+30-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:15:5-81
+30-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:15:22-78
+31
+32    <uses-feature
+32-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:17:5-19:36
+33        android:name="android.hardware.sensor.accelerometer"
+33-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:18:9-61
+34        android:required="false" />
+34-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:19:9-33
+35    <uses-feature
+35-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:20:5-22:36
+36        android:name="android.hardware.sensor.compass"
+36-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:21:9-55
+37        android:required="false" />
+37-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:22:9-33
+38    <uses-feature
+38-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:23:5-25:36
+39        android:name="android.hardware.sensor.gyroscope"
+39-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:24:9-57
+40        android:required="false" />
+40-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:25:9-33
+41    <uses-feature
+41-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:26:5-28:35
+42        android:name="android.hardware.wifi"
+42-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:27:9-45
+43        android:required="true" />
+43-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:28:9-32
+44
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+45-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:17:5-81
+45-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:17:22-78
+46
+47    <supports-screens
+47-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:11:5-14:40
+48        android:anyDensity="true"
+48-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:12:9-34
+49        android:largeScreens="true"
+49-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:13:9-36
+50        android:normalScreens="true" />
+50-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:14:9-37
+51
+52    <uses-feature
+52-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:16:5-18:36
+53        android:name="android.hardware.location.network"
+53-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:17:9-57
+54        android:required="false" />
+54-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:18:9-33
+55    <uses-feature
+55-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:19:5-21:36
+56        android:name="android.hardware.location.gps"
+56-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:20:9-53
+57        android:required="false" />
+57-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:21:9-33
+58    <uses-feature
+58-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:22:5-24:36
+59        android:name="android.hardware.telephony"
+59-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:23:9-50
+60        android:required="false" />
+60-->[org.osmdroid:osmdroid-android:6.0.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f7dc5e16a85efe7341e8bd01c0c6893\osmdroid-android-6.0.3\AndroidManifest.xml:24:9-33
+61
+62    <application
+62-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:17:5-92:19
+63        android:allowBackup="true"
+63-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:19:9-35
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+65        android:debuggable="true"
+66        android:icon="@drawable/ic_launcher"
+66-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:20:9-45
+67        android:label="@string/app_name"
+67-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:21:9-41
+68        android:testOnly="true"
+69        android:theme="@style/AppTheme" >
+69-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:22:9-40
+70        <meta-data
+70-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:25:13-66
+73        <meta-data
+73-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:26:9-28:55
+74            android:name="com.google.android.maps.v2.API_KEY"
+74-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:27:13-62
+75            android:value="@string/google_maps_key" />
+75-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:28:13-52
+76        <meta-data
+76-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:29:9-31:68
+77            android:name="com.indooratlas.android.sdk.API_KEY"
+77-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:30:13-63
+78            android:value="d9671eef-4ab6-4c2c-b47d-55757fe1b597" />
+78-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:31:13-65
+79        <meta-data
+79-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:32:9-34:160
+80            android:name="com.indooratlas.android.sdk.API_SECRET"
+80-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:33:13-66
+81            android:value="zPHSifWI6mqNyiIuRgmxbLglBCHYEusxdLG9o4VzFesNPo8zGJeghUy/6rHHK6OqEYTCBG4ZhOwOgfieJAAGo91nKurBFCza8cN1z633SPiikzd1MCGo5ytJCCofnA==" />
+81-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:34:13-157
+82
+83        <activity
+83-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:35:9-43:20
+84            android:name="com.indooratlas.android.sdk.examples.Bianca"
+84-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:36:13-35
+85            android:label="@string/app_name"
+85-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:38:13-45
+86            android:launchMode="singleInstance" >
+86-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:37:13-48
+87            <intent-filter>
+87-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:39:13-42:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:40:17-69
+88-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:40:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:41:17-77
+90-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:41:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:44:9-47:60
+94            android:name="com.indooratlas.android.sdk.examples.simple.SimpleActivity"
+94-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:45:13-50
+95            android:configChanges="orientation|screenSize"
+95-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:46:13-59
+96            android:label="@string/example_simple_title" />
+96-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:47:13-57
+97        <activity
+97-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:48:9-51:54
+98            android:name="com.indooratlas.android.sdk.examples.imageview.ImageViewActivity"
+98-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:49:13-56
+99            android:label="@string/example_imageview_title"
+99-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:50:13-60
+100            android:screenOrientation="fullSensor" />
+100-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:51:13-51
+101        <activity
+101-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:52:9-55:54
+102            android:name="com.indooratlas.android.sdk.examples.mapsoverlay.MapsOverlayActivity"
+102-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:53:13-60
+103            android:label="@string/example_googlemaps_overlay_title"
+103-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:54:13-69
+104            android:screenOrientation="fullSensor" />
+104-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:55:13-51
+105        <activity
+105-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:56:9-58:65
+106            android:name="com.indooratlas.android.sdk.examples.credentials.CredentialsFromCodeActivity"
+106-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:57:13-68
+107            android:label="@string/example_credentials_title" />
+107-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:58:13-62
+108        <activity
+108-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:59:9-62:54
+109            android:name="com.indooratlas.android.sdk.examples.geofence.GeofenceMapsOverlayActivity"
+109-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:60:13-65
+110            android:label="@string/example_googlemaps_overlay_geofencing_title"
+110-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:61:13-80
+111            android:screenOrientation="fullSensor" />
+111-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:62:13-51
+112        <activity
+112-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:63:9-67:20
+113            android:name="com.indooratlas.android.sdk.examples.wayfinding.WayfindingOverlayActivity"
+113-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:64:13-65
+114            android:label="@string/example_wayfinding_title"
+114-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:65:13-61
+115            android:screenOrientation="fullSensor" >
+115-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:66:13-51
+116        </activity>
+117        <activity
+117-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:68:9-69:38
+118            android:name="com.indooratlas.android.sdk.examples.wayfinding.RangingActivity"
+118-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:68:19-61
+119            android:label="Ranging" />
+119-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:69:13-36
+120        <activity
+120-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:70:9-71:38
+121            android:name="com.indooratlas.android.sdk.examples.RegionsActivity"
+121-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:70:19-50
+122            android:label="Regions" />
+122-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:71:13-36
+123        <activity
+123-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:72:9-75:54
+124            android:name="com.indooratlas.android.sdk.examples.googlemapsindoor.GoogleMapsIndoorActivity"
+124-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:73:13-70
+125            android:label="@string/example_googlemaps_indoor_title"
+125-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:74:13-68
+126            android:screenOrientation="fullSensor" />
+126-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:75:13-51
+127        <activity android:name="com.indooratlas.android.sdk.examples.wayfinding.LocationFinder" />
+127-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:76:9-77:15
+127-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:76:19-60
+128
+129        <service
+129-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:78:9-80:40
+130            android:name="com.indooratlas.android.sdk.examples.foregroundservice.ForegroundService"
+130-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:79:13-64
+131            android:exported="false" />
+131-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:80:13-37
+132
+133        <provider
+133-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:82:9-90:20
+134            android:name="androidx.core.content.FileProvider"
+134-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:83:13-62
+135            android:authorities="com.indooratlas.android.sdk.examples.fileprovider"
+135-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:84:13-84
+136            android:exported="false"
+136-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:85:13-37
+137            android:grantUriPermissions="true" >
+137-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:86:13-47
+138            <meta-data
+138-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:87:13-89:53
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:88:17-67
+140                android:resource="@xml/filepaths" />
+140-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:89:17-50
+141        </provider>
+142
+143        <uses-library
+143-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:91:9-87
+144            android:name="org.apache.http.legacy"
+144-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:91:23-60
+145            android:required="false" />
+145-->C:\Users\Asus\Desktop\biancafinal\Basic\src\main\AndroidManifest.xml:91:61-85
+146
+147        <service
+147-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:31:9-33:49
+148            android:name="com.indooratlas.android.sdk.IALocationService"
+148-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:32:13-73
+149            android:label="IALocationService" />
+149-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:33:13-46
+150        <service
+150-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:34:9-38:72
+151            android:name="com.indooratlas.android.sdk.internal.offline.DataUploadService"
+151-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:35:13-90
+152            android:exported="false"
+152-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:36:13-37
+153            android:label="DataUploadService"
+153-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:37:13-46
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:38:13-69
+155
+156        <provider
+156-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:40:9-44:40
+157            android:name="com.indooratlas.android.sdk.IndoorAtlasInitProvider"
+157-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:41:13-79
+158            android:authorities="com.indooratlas.android.sdk.examples.indooratlasinitprovider"
+158-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:42:13-75
+159            android:enabled="true"
+159-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:43:13-35
+160            android:exported="false" />
+160-->[com.indooratlas.android:indooratlas-android-sdk:3.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e8a03f4af0906b84c7ca55fd2bc493da\jetified-indooratlas-android-sdk-3.2.1\AndroidManifest.xml:44:13-37
+161
+162        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
+162-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:21:9-27:20
+162-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:21:19-87
+163            <intent-filter>
+163-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:22:13-26:29
+164                <action android:name="android.intent.action.BOOT_COMPLETED" />
+164-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:23:17-79
+164-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:23:25-76
+165                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+165-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:24:17-87
+165-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:24:25-84
+166                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+166-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:25:17-90
+166-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:25:25-87
+167            </intent-filter>
+168        </receiver>
+169
+170        <service
+170-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:29:9-34:38
+171            android:name="org.altbeacon.beacon.service.BeaconService"
+171-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:30:13-70
+172            android:enabled="true"
+172-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:31:13-35
+173            android:exported="false"
+173-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:32:13-37
+174            android:isolatedProcess="false"
+174-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:33:13-44
+175            android:label="beacon" />
+175-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:34:13-35
+176        <service
+176-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:35:9-38:40
+177            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+177-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:36:13-70
+178            android:enabled="true"
+178-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:37:13-35
+179            android:exported="false" />
+179-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:38:13-37
+180        <service
+180-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:39:9-48:19
+181            android:name="org.altbeacon.beacon.service.ScanJob"
+181-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:40:13-64
+182            android:permission="android.permission.BIND_JOB_SERVICE" >
+182-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:41:13-69
+183            <meta-data
+183-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:42:13-44:45
+184                android:name="immediateScanJobId"
+184-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:43:17-50
+185                android:value="208352939" />
+185-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:44:17-42
+186            <meta-data
+186-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:45:13-47:45
+187                android:name="periodicScanJobId"
+187-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:46:17-49
+188                android:value="208352940" />
+188-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:47:17-42
+189        </service>
+190        <service
+190-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:49:9-55:19
+191            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+191-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:50:13-68
+192            android:permission="android.permission.BIND_JOB_SERVICE" >
+192-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:51:13-69
+193            <meta-data
+193-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:52:13-54:46
+194                android:name="jobId"
+194-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:53:17-37
+195                android:value="1799803768" />
+195-->[org.altbeacon:android-beacon-library:2.17.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\1f72b4ca53696ab841515e95e5beeff8\jetified-android-beacon-library-2.17.1\AndroidManifest.xml:54:17-43
+196        </service>
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+202    </application>
+203
+204</manifest>

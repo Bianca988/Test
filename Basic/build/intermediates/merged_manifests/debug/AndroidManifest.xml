@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indooratlas.android.sdk.examples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_KEY"
+            android:value="d9671eef-4ab6-4c2c-b47d-55757fe1b597" />
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_SECRET"
+            android:value="zPHSifWI6mqNyiIuRgmxbLglBCHYEusxdLG9o4VzFesNPo8zGJeghUy/6rHHK6OqEYTCBG4ZhOwOgfieJAAGo91nKurBFCza8cN1z633SPiikzd1MCGo5ytJCCofnA==" />
+
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.Bianca"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.simple.SimpleActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/example_simple_title" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.imageview.ImageViewActivity"
+            android:label="@string/example_imageview_title"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.mapsoverlay.MapsOverlayActivity"
+            android:label="@string/example_googlemaps_overlay_title"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.credentials.CredentialsFromCodeActivity"
+            android:label="@string/example_credentials_title" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.geofence.GeofenceMapsOverlayActivity"
+            android:label="@string/example_googlemaps_overlay_geofencing_title"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.wayfinding.WayfindingOverlayActivity"
+            android:label="@string/example_wayfinding_title"
+            android:screenOrientation="fullSensor" >
+        </activity>
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.wayfinding.RangingActivity"
+            android:label="Ranging" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.RegionsActivity"
+            android:label="Regions" />
+        <activity
+            android:name="com.indooratlas.android.sdk.examples.googlemapsindoor.GoogleMapsIndoorActivity"
+            android:label="@string/example_googlemaps_indoor_title"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.indooratlas.android.sdk.examples.wayfinding.LocationFinder" />
+
+        <service
+            android:name="com.indooratlas.android.sdk.examples.foregroundservice.ForegroundService"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.indooratlas.android.sdk.examples.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.indooratlas.android.sdk.IALocationService"
+            android:label="IALocationService" />
+        <service
+            android:name="com.indooratlas.android.sdk.internal.offline.DataUploadService"
+            android:exported="false"
+            android:label="DataUploadService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="com.indooratlas.android.sdk.IndoorAtlasInitProvider"
+            android:authorities="com.indooratlas.android.sdk.examples.indooratlasinitprovider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.altbeacon.beacon.service.BeaconService"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="false"
+            android:label="beacon" />
+        <service
+            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="org.altbeacon.beacon.service.ScanJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="immediateScanJobId"
+                android:value="208352939" />
+            <meta-data
+                android:name="periodicScanJobId"
+                android:value="208352940" />
+        </service>
+        <service
+            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="jobId"
+                android:value="1799803768" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

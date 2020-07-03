@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="background_report_endpoint" translatable="false"></string>
+    <string name="indooratlas_api_key" translatable="false">e92e5726-9dd5-4ebb-869d-97e9988866ec</string>
+    <string name="indooratlas_api_secret" translatable="false">93NuJAN37nzUZdQ5d2RLl/9VsXa4u/S80TlLDxquZVnNZXTG4lkPPRveE3el22kunmQJw/kVsxk7/dg3zvawQpQB81rULd03lIyccqIg5nEaeJe6OQzPgPGq6p5w7w==</string>
+    <string name="pubnub_publish_key" translatable="false">pub-c-871b6353-948d-4768-b94f-e52040ab85fa</string>
+    <string name="pubnub_subscribe_key" translatable="false">sub-c-a7cecd4e-822c-11e5-a49d-02ee2ddab7fe</string>
+
+</resources>

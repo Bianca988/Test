@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nexenio.bleindoorpositioning:core:0.4.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nexenio.bleindoorpositioning/core/0.4.0/798900cbe8f06124aae3ed077d9da48b60644f9c/core-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nexenio.bleindoorpositioning/core/0.4.0/ece0edb3df5e40ef608c0ef56cf85d5677aeb8f3/core-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nexenio.bleindoorpositioning/core/0.4.0/902dd963e009a8fb23f64e0fcfa0c25822acdb12/core-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

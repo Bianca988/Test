@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_scan" type="id" />
+    <item name="tv_service_uuid" type="id" />
+    <item name="tv_characteristic_uuid" type="id" />
+    <item name="tv_properties" type="id" />
+    <item name="tv_value" type="id" />
+    <item name="tv_rssi" type="id" />
+    <item name="tv_macaddr" type="id" />
+    <item name="lv_expandable" type="id" />
+    <item name="tv_address" type="id" />
+    <item name="tv_name" type="id"/>
+    <item name="et_submit" type="id" />
+</resources>
